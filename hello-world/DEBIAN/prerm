@@ -1,0 +1,13 @@
+#!/bin/sh
+
+service_name="hello_world"
+
+systemctl stop ${service_name}.service
+systemctl disable ${service_name}.service
+systemctl daemon-reload
+echo "Stopped and disabled service - ${service_name}"
+
+# Post-install script success message
+echo "Post-remove script completed successfully."
+
+exit 0

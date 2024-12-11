@@ -1,0 +1,3 @@
+#!/bin/sh
+
+echo "Servizio in esecuzione - Hello World!" >> /var/log/hello-world.log

@@ -1,0 +1,13 @@
+#!/bin/sh
+
+service_name="hello_world"
+
+# start webgest backend pmclient servlet
+systemctl enable ${service_name}.service
+systemctl daemon-reload
+systemctl restart ${service_name}.service
+echo "Enabled and started service - ${service_name}"
+
+echo "Post-installation script completed successfully."
+
+exit 0

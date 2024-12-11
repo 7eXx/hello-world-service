@@ -1,0 +1,7 @@
+Package: hello-world
+Version: 0.1.0
+Section: base
+Priority: optional
+Maintainer: Texx
+Architecture: amd64
+Description: Simple hello world service
